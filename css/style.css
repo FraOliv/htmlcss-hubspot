@@ -64,10 +64,11 @@ li {
   background: #ffbcac;
   border: 1px solid #ffbcac;
 }
-.icon_li{
+
+.icon_li {
   color: #FE775A;
   padding-right: 10px;
-  }
+}
 
 .color_text {
   color: #33475B;
@@ -89,14 +90,14 @@ a {
   margin: auto;
 }
 
-
 .header {
   height: 820px;
 }
 
-#services{
+#services {
   height: 1300px
 }
+
 .float_left {
   float: left;
 }
@@ -217,18 +218,20 @@ a {
   box-shadow: 0 0 10px #E6ECF1;
   background: white;
   padding: 60px 0;
-  transform: translate(30%,-50px);
+  transform: translate(30%, -50px);
   width: 60%
 }
 
 .col_left {
-  width: 30%;
+  width: 36%;
   padding: 10px;
 }
 
 .libro {
-  width: 52%;
-  transform: translate(87%, -35%);
+  width: 46%;
+  transform: translate(100%, -37%);
+  margin-bottom: 25px;
+}
 }
 
 .col_left a {
@@ -236,9 +239,9 @@ a {
 }
 
 .col_right {
-  width: 70%;
-  padding-left: 20px;
-  padding-right: 81px;
+  width: 60%;
+  padding-left: 40px;
+  padding-right: 30px;
 }
 
 .col_right li {
@@ -251,45 +254,50 @@ a {
   border: 1px solid grey;
 }
 
-
-.col_3{
-  width: 18%;
-  background: #F4F9FD;
-  margin-left: 2%;
-  margin-right: 1%;
-  transform: translate(326px, 10px);
-
+.col_3 {
+  width: 19%;
+    background: #F4F9FD;
+    margin-left: 1%;
+    margin-right: 1%;
+    transform: translate(87%, -4%);
+    padding: 10px;
 }
-.card{
+
+.card {
   text-align: center;
 }
-.text_left{
+
+.text_left {
   text-align: left;
 }
-.text_left li{
+
+.text_left li {
   margin-left: 10px
 }
 
-
-.col_3 > .card{
+.col_3>.card {
   background: white;
   height: 500px
 }
-.btn_learn_more{
+
+.btn_learn_more {
   display: inline-block;
   margin-top: 10px;
 }
 
-.card hr{
+.card hr {
   width: 60%;
   border: 1px solid grey;
   transform: translate(85px, 10px);
 }
-.marketing{
-    width: 25%;
-  }
-.sales_hub{
-    width: 35%;
-  }
-.service_hub{
-    width: 30%;
+
+.marketing {
+  width: 25%;
+}
+
+.sales_hub {
+  width: 35%;
+}
+
+.service_hub {
+  width: 30%;

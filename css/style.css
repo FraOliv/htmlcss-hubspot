@@ -89,6 +89,7 @@ a {
   margin: auto;
 }
 
+
 .header {
   height: 820px;
 }
@@ -119,7 +120,7 @@ a {
   margin-top: 7px;
 }
 
-.navbottom {
+#navbottom {
   height: 50px;
   margin-top: 15px
 }

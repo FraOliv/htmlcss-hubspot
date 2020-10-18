@@ -5,7 +5,7 @@
 }
 
 body {
-  min-width: 1400px;
+  min-width: 2000px;
   overflow-x: hidden;
   height: 4000px;
   color: #33475B;
@@ -95,7 +95,7 @@ a {
 }
 
 #services{
-  height: 3000px
+  height: 1300px
 }
 .float_left {
   float: left;

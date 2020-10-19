@@ -5,14 +5,13 @@
 }
 
 body {
-  min-width: 2000px;
-  overflow-x: hidden;
-  height: 4000px;
   color: #33475B;
 }
-h2{
+
+h2 {
   font-size: 32px
 }
+
 h3 {
   font-size: 1.5em;
   padding-bottom: 25px;
@@ -98,13 +97,7 @@ a {
   clear: both;
 }
 
-.header {
-  height: 820px;
-}
 
-#services {
-  height: 1350px
-}
 
 .float_left {
   float: left;
@@ -191,9 +184,7 @@ a {
   bottom: 0
 }
 
-#main_content {
-  height: 1000px
-}
+
 
 .row::after {
   content: "";
@@ -213,7 +204,6 @@ a {
   top: 10%;
   left: 25%;
   text-align: center;
-  line-height: 165%;
 }
 
 .square .integrations {
@@ -324,11 +314,9 @@ a {
 #community {
   background-color: #00ACB6;
   color: white;
-  height: 500px
 }
-#customers{
-  height: 550px
-}
+
+
 
 .learn_and_growth {
   width: 100%;
@@ -354,11 +342,9 @@ a {
   border-right: 1px solid white
 }
 
-
-
 .text_customers {
   width: 50%;
-  transform: translate(46%, 10px);
+  transform: translate(42%, 10px);
   margin-top: 1%;
 }
 
@@ -399,43 +385,44 @@ a {
 
 .text_growth {
   width: 19%;
-  margin-top: -1%;
-  transform: translate(90%, 15%);
+  margin-left: 21%;
+  margin-top: 1%;
 }
 
 .text_growth p {
   margin-bottom: 10%;
-margin-top: 14%;
+  margin-top: 14%;
 }
 
 .image_growth {
-    width: 50%;
-    transform: translate(81%, -2%);
+  margin-left: 27%
 }
-
 
 .woman {
-  width: 35%
+  width: 50%
 }
+
 /* footer */
-#footer{
+#footer {
   padding: 30px 0;
-  background:#32495B;
+  background: #32495B;
   color: white;
 }
-.footer{
+
+.footer {
   color: white;
 }
-.link a, .social a{
+
+.link a, .social a {
   color: white
 }
+
 .col_5 {
-transform: translate(110%, 10px);
-color: white;
-margin-right: 5%;
-padding: 1%;
+margin-left: 11%;
+transform: translate(100%, 10px);
 }
-.btn_support{
+
+.btn_support {
   font-size: 13.5px;
   background: white;
   padding: 10px;

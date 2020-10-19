@@ -89,7 +89,8 @@ a {
   width: 80%;
   margin: auto;
 }
-.container{
+
+.container {
   content: "";
   display: table;
   clear: both;
@@ -158,12 +159,12 @@ a {
   height: calc(570px - 100px);
 }
 
-  .nav_text {
-    left: 10%;
-    width: 23%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-75%);
+.nav_text {
+  left: 10%;
+  width: 23%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-75%);
 }
 
 .nav_text h1 {
@@ -271,13 +272,11 @@ a {
   transform: translate(87%, -4%);
   padding: 10px;
 }
-
-
 }
-.text_center{
+
+.text_center {
   text-align: center;
 }
-
 
 .text_left {
   text-align: left;
@@ -318,31 +317,93 @@ a {
   width: 30%;
   margin: 0 10
 }
-#community{
-   background-color: #00ACB6;
-   color: white;
-   height: 500px
 
+#community {
+  background-color: #00ACB6;
+  color: white;
+  height: 500px
 }
-.learn_and_growth{
+
+.learn_and_growth {
   width: 100%;
   padding: 1%
 }
-.learn_and_growth{
+
+.learn_and_growth {
   text-align: center;
 }
 
-
-.col_4{
+.col_4 {
   width: 15%;
-transform: translate(112%, 1%);
-padding: 1%;
-padding-left: 6%;
-  }
+  transform: translate(112%, 1%);
+  padding: 1%;
+  padding-left: 6%;
+}
 
-  .border_bottom{
+.border_bottom {
   border-bottom: 1px solid white
-  }
-  .border_right{
-    border-right: 1px solid white
-  }
+}
+
+.border_right {
+  border-right: 1px solid white
+}
+
+#customers {
+  height: 1000px
+}
+
+.text_customers {
+  width: 50%;
+  transform: translate(46%, 10px);
+  margin-top: 1%;
+}
+
+.text_customers p {
+  width: 19%;
+}
+
+.logo_customers {
+  width: 50%
+}
+.logo_row{
+  margin-bottom: 1%
+}
+.g2 {
+    transform: translate(1%, 15%);
+}
+.purple{
+  transform: translate(1%, 15%);
+
+}
+.wistia{
+  transform: translate(0%, -35%);
+
+}
+.vmware{
+      transform: translate(1%, -25%);
+
+}
+
+.img_logo{
+  width:15%;
+  padding: 1%
+}
+.img_logobig{}
+
+.text_growth {
+  width: 19%;
+  margin-top: 1%;
+  transform: translate(90%, 15%);
+}
+
+.text_growth p {
+  margin-bottom: 10%
+}
+
+.image_growth {
+    width: 50%;
+    transform: translate(68%, -2%);
+}
+.woman{
+  width:50%
+}

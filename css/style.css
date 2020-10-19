@@ -10,7 +10,9 @@ body {
   height: 4000px;
   color: #33475B;
 }
-
+h2{
+  font-size: 32px
+}
 h3 {
   font-size: 1.5em;
   padding-bottom: 25px;
@@ -22,7 +24,7 @@ h4 {
 }
 
 h5 {
-  font-size: 32px;
+  font-size: 18px;
   padding: 10px 0;
   font-weight: 700;
 }
@@ -123,6 +125,7 @@ a {
 
 #navtop {
   height: 80px;
+  margin-top: 2%;
 }
 
 .logo {
@@ -323,6 +326,9 @@ a {
   color: white;
   height: 500px
 }
+#customers{
+  height: 550px
+}
 
 .learn_and_growth {
   width: 100%;
@@ -348,9 +354,7 @@ a {
   border-right: 1px solid white
 }
 
-#customers {
-  height: 1000px
-}
+
 
 .text_customers {
   width: 50%;
@@ -365,45 +369,78 @@ a {
 .logo_customers {
   width: 50%
 }
-.logo_row{
+
+.logo_row {
   margin-bottom: 1%
 }
+
 .g2 {
-    transform: translate(1%, 15%);
-}
-.purple{
   transform: translate(1%, 15%);
-
 }
-.wistia{
+
+.purple {
+  transform: translate(1%, 15%);
+}
+
+.wistia {
   transform: translate(0%, -35%);
-
-}
-.vmware{
-      transform: translate(1%, -25%);
-
 }
 
-.img_logo{
-  width:15%;
+.vmware {
+  transform: translate(1%, -25%);
+}
+
+.img_logo {
+  width: 15%;
   padding: 1%
 }
-.img_logobig{}
+
+.img_logobig {}
 
 .text_growth {
   width: 19%;
-  margin-top: 1%;
+  margin-top: -1%;
   transform: translate(90%, 15%);
 }
 
 .text_growth p {
-  margin-bottom: 10%
+  margin-bottom: 10%;
+margin-top: 14%;
 }
 
 .image_growth {
     width: 50%;
-    transform: translate(68%, -2%);
+    transform: translate(81%, -2%);
 }
-.woman{
-  width:50%
+
+
+.woman {
+  width: 35%
+}
+/* footer */
+#footer{
+  padding: 30px 0;
+  background:#32495B;
+  color: white;
+}
+.footer{
+  color: white;
+}
+.link a, .social a{
+  color: white
+}
+.col_5 {
+transform: translate(110%, 10px);
+color: white;
+margin-right: 5%;
+padding: 1%;
+}
+.btn_support{
+  font-size: 13.5px;
+  background: white;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 6px;
+  border: 1px solid white;
+  display: inline-block;
 }

@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   color: #33475B;
   min-width: 1400px
@@ -18,61 +17,55 @@ body {
   background: -o-linear-gradient(left, rgba(0, 165, 188, 1) 0%, rgba(0, 188, 166, 1) 100%, rgba(0, 165, 188, 1) 100%);
   background: linear-gradient(to right, rgba(0, 165, 188, 1) 0%, rgba(0, 188, 166, 1) 100%, rgba(0, 165, 188, 1) 100%);
   color: white;
+  padding: 1%;
 }
-
 h2 {
   font-size: 32px
 }
-
 h3 {
   font-size: 1.5em;
   padding-bottom: 25px;
 }
-
 h4 {
   text-transform: uppercase;
   padding: 15px 0;
 }
-
 h5 {
   font-size: 18px;
   padding: 10px 0;
   font-weight: 700;
 }
-
 p {
   font-size: 13.5px;
   line-height: 2;
   font-weight: 400;
 }
-
 .p_btn {
   padding: 20px 35px;
 }
-
+.p_text {
+  margin-top: 8%
+}
 li {
   list-style: none;
   padding: 0 15px 0 0;
   text-transform: capitalize;
   font-size: 14.5px;
 }
-
 /* utillity */
 .bg_light {
   background: #F4F9FD;
 }
 
-.bg_icon {
+.bg_icon {+
   color: #00A4BD;
 }
-
 .btn_orange {
   background: #FE775A;
   border-radius: 6px;
   color: white;
   border: 1px solid #FE775A;
 }
-
 .bg_orange:hover {
   background: #ffbcac;
   border: 1px solid #ffbcac;
@@ -109,16 +102,18 @@ a {
   clear: both;
 }
 
-
 .float_left {
   float: left;
 }
+
+/* fine utillity */
 .fixed {
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 100;
 }
+
 .navtop {
   width: 100%;
   min-width: 900px;
@@ -128,7 +123,7 @@ a {
 }
 
 .menu_left {
-  margin-left: 9%;
+  margin-left: 17.5%
 }
 
 .menu_left a, .menu_right a {
@@ -136,10 +131,9 @@ a {
 }
 
 .menu_right {
-  width: 56%;
+  width: 53.5%;
   text-align: right;
 }
-
 
 .logo {
   width: 20%;
@@ -150,6 +144,7 @@ a {
   color: #FE775A;
   border: 1px solid #FE775A;
   background: white;
+  border-radius: 5px
 }
 
 .navbottom {
@@ -160,10 +155,11 @@ a {
 .submenu_left {
   width: 20%;
   margin-top: 4%;
+  margin-left: 10.5%;
 }
 
 .submenu_right {
-  width: 60%;
+  width: 57.5%;
   text-align: right;
   margin-top: 4%;
 }
@@ -184,7 +180,7 @@ a {
 }
 
 .nav_text {
-  left: 10%;
+  left: 18.4%;
   width: 23%;
   position: absolute;
   top: 50%;
@@ -192,13 +188,18 @@ a {
 }
 
 .nav_text h1 {
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 40px;
+  margin-top: 40%;
+      font-size: 50px;
+      font-weight: 700;
+      margin-bottom: 6%;;
 }
 
 .nav_text p {
   margin-bottom: 50px;
+}
+
+.nav_text h6 {
+  top: 5%
 }
 
 .border {
@@ -212,7 +213,6 @@ a {
   bottom: 0
 }
 
-
 .col_1 {
   width: 100%;
   height: 450px;
@@ -225,6 +225,10 @@ a {
   top: 10%;
   left: 25%;
   text-align: center;
+}
+
+.square h2 {
+  margin-bottom: 1%
 }
 
 .square .integrations {
@@ -242,8 +246,8 @@ a {
   box-shadow: 0 0 10px #E6ECF1;
   background: white;
   padding: 60px 0;
-  transform: translate(30%, -50px);
-  width: 60%
+  transform: translate(29.5%, -50px);
+    width: 60.5%;
 }
 
 .col_left {
@@ -253,9 +257,9 @@ a {
 
 .libro {
   width: 46%;
-  transform: translate(100%, -37%);
+  transform: translate(80%, -35%);
   margin-bottom: 25px;
-}
+  height: 100px
 }
 
 .col_left a {
@@ -286,7 +290,6 @@ a {
   transform: translate(87%, -4%);
   padding: 10px;
 }
-}
 
 .text_center {
   text-align: center;
@@ -310,7 +313,7 @@ a {
 
 .btn_learn_more {
   display: inline-block;
-  margin-top: 11%;
+  margin-top: 4%;
 }
 
 .card hr {
@@ -331,7 +334,6 @@ a {
   width: 30%;
   margin: 0 10
 }
-
 
 .learn_and_growth {
   width: 100%;
@@ -372,7 +374,7 @@ a {
 }
 
 .logo_customers {
-  width: 50%
+  width: 47%
 }
 
 .logo_row {
@@ -403,7 +405,7 @@ a {
 .img_logobig {}
 
 .text_growth {
-  width: 19%;
+  width: 18%;
   margin-left: 21%;
   margin-top: 1%;
 }
@@ -414,33 +416,27 @@ a {
 }
 
 .image_growth {
-  margin-left: 27%
+  margin-left: 26%
 }
-
 .woman {
-  width: 50%
+  width: 55%;
+    margin-left: 14%;
 }
-
-/* footer */
 #footer {
   padding: 30px 0;
   background: #32495B;
   color: white;
 }
-
-.footer {
+.link a, .social a {
   color: white;
 }
-
-.link a, .social a {
-  color: white
+.social a{
+  margin-right: 5%
 }
-
 .col_5 {
   margin-left: 11%;
-  transform: translate(100%, 10px);
+  transform: translate(124%, 10px);
 }
-
 .btn_support {
   font-size: 13.5px;
   background: white;
@@ -454,42 +450,34 @@ a {
 .col_6 {
   width: 50%;
   margin-bottom: 1%;
-  margin-left: 39%;
+  margin-left: 23.5%;
 }
-
 .col_6 a {
   color: white;
   padding: 2%
 }
-
 .footer_hr {
-  width: 73%;
-  margin-left: 15%;
-  margin-bottom: 1%
+  width: 65%;
+  margin-left: 19%;
+  margin-bottom: 1%;
 }
-}
-
 .col_7 {
   margin-top: 1%;
   width: ;
   margin-left: 5%;
   color: white;
 }
-
 .col_7 a {
   color: white;
 }
-
 .logo_footer {
   color: white;
   background-color: white
 }
-
 .footer_right {
   width: 10%
 }
-
 .footer_left {
-  width: 56%;
-  margin-left: 18%;
+  width: 52%;
+  margin-left: 20%;
 }

@@ -23,7 +23,7 @@ h2 {
   font-size: 32px
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 2em;
   padding-bottom: 25px;
 }
 h4 {
@@ -253,11 +253,12 @@ a {
 .col_left {
   width: 36%;
   padding: 10px;
+  transform: translate(-19%, 21%);
 }
 
 .libro {
   width: 46%;
-  transform: translate(80%, -35%);
+      transform: translate(92%, -48%);
   margin-bottom: 25px;
   height: 100px
 }
@@ -277,7 +278,7 @@ a {
 }
 
 #hr_inline {
-  transform: translate(214px, -41px);
+  transform: translate(214px, -26px);
   width: 50%;
   border: 1px solid grey;
 }
@@ -289,6 +290,9 @@ a {
   margin-right: 1%;
   transform: translate(87%, -4%);
   padding: 10px;
+}
+#services > div:nth-child(2) > div > div.col_right.float_left > p{
+  width: 57%
 }
 
 .text_center {
@@ -336,13 +340,12 @@ a {
 }
 
 .learn_and_growth {
-  width: 100%;
-  padding: 1%
+  width: 54%;
+  padding: 1%;
+  text-align: center;
+  margin-bottom: 1%
 }
 
-.learn_and_growth {
-  text-align: center;
-}
 
 .col_4 {
   width: 15%;
@@ -364,9 +367,11 @@ a {
 }
 
 .text_customers {
-  width: 50%;
-  transform: translate(42%, 10px);
-  margin-top: 1%;
+    width: 40%;
+    transform: translate(42%, 10px);
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-bottom: 2%;
 }
 
 .text_customers p {
@@ -374,7 +379,8 @@ a {
 }
 
 .logo_customers {
-  width: 47%
+  width: 49%;
+
 }
 
 .logo_row {
@@ -405,7 +411,7 @@ a {
 .img_logobig {}
 
 .text_growth {
-  width: 18%;
+   width: 25%;
   margin-left: 21%;
   margin-top: 1%;
 }
@@ -416,7 +422,7 @@ a {
 }
 
 .image_growth {
-  margin-left: 26%
+  margin-left: 18%
 }
 .woman {
   width: 55%;
@@ -434,8 +440,11 @@ a {
   margin-right: 5%
 }
 .col_5 {
-  margin-left: 11%;
-  transform: translate(124%, 10px);
+  padding: 4%;
+
+}
+.data{
+  margin-left: 16%;
 }
 .btn_support {
   font-size: 13.5px;
@@ -450,16 +459,16 @@ a {
 .col_6 {
   width: 50%;
   margin-bottom: 1%;
-  margin-left: 23.5%;
+  margin-left: 27%;
 }
 .col_6 a {
   color: white;
   padding: 2%
 }
 .footer_hr {
-  width: 65%;
-  margin-left: 19%;
-  margin-bottom: 1%;
+  width: 63%;
+margin-left: 19%;
+margin-bottom: 1%;
 }
 .col_7 {
   margin-top: 1%;
@@ -478,6 +487,7 @@ a {
   width: 10%
 }
 .footer_left {
-  width: 52%;
-  margin-left: 20%;
+  width: 50%;
+margin-left: 20%;
+}
 }
